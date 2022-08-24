@@ -6,7 +6,7 @@ import logo from "../data/avatar2.jpg"
 export const AboutMe = () => {
   return (
     // #262829, #313536
-    <div className='w-full bg-[#313536]'>
+    <div className='w-full dark:bg-[#313536] bg-[#EDF7FA]'>
 
     <div className='w-full flex flex-row'>
         <div className='flex flex-col w-2/5 p-10'>
@@ -14,8 +14,8 @@ export const AboutMe = () => {
           </div>
         
           <div className=' w-3/5 p-10 flex flex-col'>
-          <p className='text-green-400 text-2xl font-bold items-center py-6 mt-20'>ABOUT ME</p>
-          <p className='text-white text-7xl items-center py-6'>Web Developer</p>
+          <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center py-6 mt-20'>ABOUT ME</p>
+          <p className='dark:text-white text-black text-7xl items-center py-6'>Web Developer</p>
           <div className='text-3xl text-slate-500 py-6 leading-relaxed mr-4'>PHP, ASP, Ruby, Python, etc. Medium skill in database/server work, medium skill in JavaScript, light skill in HTML. 
 
       This is very different from a Front End Developer as there is little working with the design and heavier on programming concepts and concerns, like security and structure.</div>

@@ -11,6 +11,8 @@ import avatar from "../data/avatar.jpg"
 import { useStateContext } from '../contexts/ContextProvider'
 
 const NavButton = ({title, customFunc, icon, color, dotColor}) => {
+    
+
     return (
         <TooltipComponent content={title} 
         position='BottomCenter' className=''>
@@ -36,15 +38,21 @@ const MainIcon = ({title, customFunc, icon, color, dotColor}) => {
 }
 export const Navbar = () => {
 
-    const {activeMenu, setActiveMenu} = useStateContext();
+    const {activeMenu, setActiveMenu, theme, setTheme} = useStateContext();
 
 
     const handleclick = (buttonName) => {
         console.log(buttonName, " clicked!");
     }
+
+    const handleThemeSwitch = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+      }
+
+
   return (
     // bg-[#121212]
-    <div className='flex justify-between md:p-10 relative bg-[#313536] p-10'>
+    <div className='flex justify-between md:p-10 relative dark:bg-[#313536] p-10 bg-[#FF6464]'>
         
         <MainIcon title="Maars" customFunc={(activeMenu) => {
                 setActiveMenu((prevActiveMenu) => 
@@ -99,8 +107,12 @@ export const Navbar = () => {
             </div>
 
 
-             <a href="#" className='bg-gradient-to-r from-[#31ccec] to-[#9c27b0] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
-            md:text-md'>Connect</a>
+             {/* <a href="#" className='bg-gradient-to-r from-[#31ccec] to-[#9c27b0] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
+            md:text-md'>Connect</a> */}
+            <a href="#" onClick={handleThemeSwitch} className='rounded-full inline-block px-8 py-3 border border-transparent font-medium text-2xl text-white hover:opacity-75
+            md:text-md outline outline-offset-4 outline-white outline-4  p-4'>{theme === "dark"? "dark 🌓" : "light 🌤️"}</a>
+
+
 
             
         </div>

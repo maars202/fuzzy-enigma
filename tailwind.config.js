@@ -35,7 +35,9 @@ module.exports = {
           "q-dark-page": "#141c33",
           "themegreen": "#01e472",
           "lightgrey": "#313536",
-          "darkgrey": "#262829"
+          "darkgrey": "#262829",
+          "lightred": "#FF6464",
+          "lightblue": "#EDF7FA"
         },
         borderWidth: {
           1: '1px',

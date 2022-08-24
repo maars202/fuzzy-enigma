@@ -4,7 +4,7 @@ import Chart from "../components/Chart"
 
 export const ContactDetails = () => {
   return (
-    <div className='flex flex-row bg-[#262829] min-h-590'>
+    <div className='flex flex-row dark:bg-[#262829] bg-white min-h-590'>
       
 <form className='text-white'>
   <div class="mb-6">

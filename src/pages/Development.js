@@ -11,12 +11,12 @@ import remittancelogo from "../data/remittancePortal.png"
 
 export const Development = () => {
   return (
-    <div className='flex flex-col bg-[#262829] justify-between'>
+    <div className='flex flex-col bg-white dark:bg-[#262829] justify-between'>
       <div className='place-items-center grid py-5 mt-5'>
-        <p className='text-green-400 text-2xl font-bold items-center'>MORE ABOUT ME</p>
+        <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center'>MORE ABOUT ME</p>
       </div>
         <div className='place-items-center grid py-5 mb-20'>
-        <p className='text-white text-5xl items-center'>Development</p>
+        <p className='dark:text-white text-black text-5xl items-center'>Development</p>
         </div>
       
     <div className='flex flex-row justify-between  min-h-590 px-20'>

@@ -13,16 +13,41 @@ import { Projectsummary } from './pages/Projectsummary';
 import { ContactDetails } from './pages/ContactDetails';
 // https://www.youtube.com/watch?v=QTY2fLpQn44&t=1622s
 function App() {
-  const { activeMenu, setActiveMenu } = useStateContext();
+  const { activeMenu, setActiveMenu, theme, setTheme } = useStateContext();
 
-
-
+  useEffect(() => {
+    console.log("window.matchMedia('prefers-color-theme: dark').matches: ",window.matchMedia('prefers-color-theme: dark').matches);
+    if (
+      !window.matchMedia('prefers-color-theme: dark').matches
+    ) {
+      setTheme("dark")
+    }else{
+      setTheme("light")
+    }
   
+  }, [])
+
+
+    // adding dark class to our body:
+  useEffect(() => {
+    if  (theme === 'dark'){
+      console.log("added: ", theme)
+      document.documentElement.classList.add('dark');
+    }else{
+      document.documentElement.classList.remove('dark');
+
+    }
+
+  }, [theme])
+
+
+
 
   
   return (
 
     <>
+
     <Navbar />
    {/* <h1 className='text-base underline text-3xl'>helloooo</h1> */}
     <Dashboard />
