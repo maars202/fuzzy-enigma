@@ -1,7 +1,7 @@
 import React from 'react'
 // import {Pie, Doughnut, Bar} from 'react-chartjs-2';
 import Chart from "../components/Chart"
-import logo from "../data/avatar2.jpg"
+import logo from "../data/product4.jpg"
 export const Skills = () => {
   return (
     <div className='flex flex-row bg-white dark:bg-[#262829] min-h-590'>
