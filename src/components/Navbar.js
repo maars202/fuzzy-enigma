@@ -31,7 +31,7 @@ const MainIcon = ({title, customFunc, icon, color, dotColor}) => {
             <button type="button" onClick={customFunc}
             style={{color}} className="relative text-xl rounded-full p-3">
                 <span> </span>
-                <p className='italic font-icon text-3xl font-sans hover:font-bold text-white hover:text-[#01e472] hover:underline hover:underline-offset-8 hover:decoration-4'>{title}</p>
+                <p className='italic font-icon text-3xl font-sans hover:font-bold text-white hover:dark:text-red-400 hover:text-[#01e472] hover:underline hover:underline-offset-8 hover:decoration-4'>{title}</p>
             </button>
         </TooltipComponent>
     )
@@ -52,7 +52,8 @@ export const Navbar = () => {
 
   return (
     // bg-[#121212]
-    <div className='flex justify-between md:p-10 relative dark:bg-[#313536] p-10 bg-[#FF6464]'>
+    // dark:bg-[#313536]
+    <div className='flex justify-between md:p-10 relative p-10 dark:bg-[#313536] bg-gradient-to-r from-blue-300 to-[#FF6464]'>
         
         <MainIcon title="Maars" customFunc={(activeMenu) => {
                 setActiveMenu((prevActiveMenu) => 
@@ -69,7 +70,7 @@ export const Navbar = () => {
             color="blue" 
                 icon={<FiShoppingCart />} />
 
-            <NavButton 
+            {/* <NavButton 
             title="About" 
             dotColor="#03C9D07"
             customFunc={() => handleclick("chat")} 
@@ -95,7 +96,7 @@ export const Navbar = () => {
             dotColor="#03C9D07"
             customFunc={() => handleclick("notification")} 
             color="blue" 
-            icon={<RiNotification3Line />} />
+            icon={<RiNotification3Line />} /> */}
 
 
 

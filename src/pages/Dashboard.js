@@ -1,15 +1,17 @@
 import React from 'react'
 import {Skills} from "./Skills"
-import logo from "../data/product4.jpg"
-
+// import logo from "../data/product4.jpg"
+import logo from "../data/dashboardImg3.jpeg"
+// src/data/dashboardImg3.jpeg
+// src/data/images (1).jpeg
 export const Dashboard = () => {
   return (
     <div className='w-full dark:bg-[#262829] bg-white h-1/2'>
 
         <div className='flex flex-row'>
             <div className='flex flex-col w-2/3 p-20'>
-              <div className='pac dark:text-white text-black text-7xl py-4'>I have lots of things to prove to myself. One is I can live my life fearlessly</div>
-              <div className='text-2xl py-4 text-slate-500'>Web Developer, Problem Solver, and a Hiker</div>
+              <div className='pac dark:text-white text-black text-5xl py-4'>Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.</div>
+              <div className='text-2xl py-4 text-slate-500'>Web Developer, Blockchain Developer, <br></br>System Design and Algorithmic Design Enthusiast, <br></br> and a Biker</div>
               <div className='py-4'>
               <a href="#" className='mr-5  dark:bg-[#01e473] bg-[#FF6464] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
             md:text-md'>Learn More</a>
@@ -18,7 +20,7 @@ export const Dashboard = () => {
               </div>
             </div>
               <div className=' w-1/2 h-full overflow-hidden rounded-l-full'>
-              <img className='' src={logo}/>
+              <img className='fill-slate-200' src={"https://www.cio.com/wp-content/uploads/2022/02/conceptual_trend_lines_data_tracking_monitoring_analytics_forecasting_future_whats_next_by_solarseven_gettyimages-1213574690_2400x1600-100877726-orig.jpg?quality=50&strip=all"}/>
             </div>
         </div>
         

@@ -54,9 +54,9 @@ function App() {
     
     <AboutMe />
 
-    <Skills />
+    {/* <Skills />
 
-    <Education />
+    <Education /> */}
 
     <Development />
 
