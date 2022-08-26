@@ -1,13 +1,8 @@
 import React from 'react'
-// import {Pie, Doughnut, Bar} from 'react-chartjs-2';
-import Chart from "../components/Chart"
-// import logo from "../data/avatar2.jpg"
 import logo from "../data/personalPic.jpg"
-
 
 export const AboutMe = () => {
   return (
-    // #262829, #313536
     <div className='w-full dark:bg-[#313536] bg-[#EDF7FA]'>
       
 
@@ -27,7 +22,6 @@ export const AboutMe = () => {
           </div>
     </div>
     
-    {/* <Skills /> */}
 </div>
   )
 }

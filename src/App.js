@@ -3,9 +3,7 @@ import './App.css';
 import Herosection from "./components/Herosection"
 import { useState, useEffect } from 'react';
 import { useStateContext } from "./contexts/ContextProvider"
-import Navbar from './components/Navbar';
 import { Navbar2 } from './components/Navbar2';
-import { Navbar3 } from './components/Navbar3';
 import { Dashboard } from './pages/Dashboard';
 import { Skills } from './pages/Skills';
 import { AboutMe } from './pages/AboutMe';
@@ -13,7 +11,7 @@ import { Education } from './pages/Education';
 import { Development } from './pages/Development';
 import { Projectsummary } from './pages/Projectsummary';
 import { ContactDetails } from './pages/ContactDetails';
-// https://www.youtube.com/watch?v=QTY2fLpQn44&t=1622s
+
 function App() {
   const { activeMenu, setActiveMenu, theme, setTheme } = useStateContext();
 
@@ -49,29 +47,27 @@ function App() {
   return (
 
     <div className='w-full'>
+      <Navbar2 />
 
-    {/* <Navbar /> */}
-    {/* <Navbar2 /> */}
-    <Navbar2 />
+      <div>
+      <Dashboard />
 
-    <div>
-    <Dashboard />
-    <a id="About"></a>
-    <AboutMe />
+          <a id="About"></a>
+          <AboutMe />
 
-    {/* <Skills />
+          {/* <Skills />
+          <Education /> */}
+          
+          <a id="projects"></a>
+          <Development />
 
-    <Education /> */}
-    <a id="projects"></a>
-    <Development />
+          <a id="summary"></a>
+          <Projectsummary />
 
-    <a id="summary"></a>
-    <Projectsummary />
-
-    <a id="contact"></a>
-    <ContactDetails />
-   
-    </div>
+          <a id="contact"></a>
+          <ContactDetails />
+        
+      </div>
     </div>
   );
 }

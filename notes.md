@@ -10,3 +10,6 @@ https://play.tailwindcss.com/tJoy230vRx
 
 
 https://www.sanity.io/guides/add-telegram-to-your-react-application
+
+
+// https://www.youtube.com/watch?v=QTY2fLpQn44&t=1622s

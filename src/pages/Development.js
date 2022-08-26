@@ -1,13 +1,8 @@
 import React from 'react'
-// import {Pie, Doughnut, Bar} from 'react-chartjs-2';
-import Chart from "../components/Chart"
 import { CoolNikeCard } from '../components/CoolNikeCard'
-// import { CoolNikeCard } from '../components/CoolNikeCard copy'
-import nftlogo from "../data/NftProject.png"
 import nftlogo2 from "../data/nftimg2.png"
 import solanaVotingLogo from "../data/SolanaVoting.png"
 import remittancelogo from "../data/remittancePortal.png"
-// src/data/remittancePortal.png
 
 
 export const Development = () => {

@@ -1,12 +1,3 @@
-// import React from 'react'
-
-// export const Chart = () => {
-//   return (
-//     <div>Chart</div>
-//   )
-// }
-
-
 import React, { PureComponent } from 'react';
 // import { PieChart, Pie, Sector, Cell, ResponsiveContainer, XAxis } from 'recharts';
 
