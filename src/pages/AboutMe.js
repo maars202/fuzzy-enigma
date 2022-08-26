@@ -9,13 +9,16 @@ export const AboutMe = () => {
   return (
     // #262829, #313536
     <div className='w-full dark:bg-[#313536] bg-[#EDF7FA]'>
+      
 
     <div className='w-full flex flex-row flex-wrap p-1 md:p-0'>
           <div className='flex flex-col md:w-2/5 p-10'>
+          
             <img className='shadow-inner rounded-xl shadow-blue-200/40' src={logo}/>
           </div>
         
           <div className='md:w-3/5 md:p-10 flex flex-col'>
+          
           <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center py-6 mt-20'>ABOUT ME</p>
           <p className='dark:text-white text-black text-7xl items-center py-6'>Full Stack Developer</p>
           <div className='text-xl md:text-3xl text-slate-500 py-6 leading-relaxed mr-4'>Worked with Java, Python, Rust, Go, PHP, etc. Mainly used React wih Tailswind styling for web projects. 

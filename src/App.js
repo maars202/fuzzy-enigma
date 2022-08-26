@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { useStateContext } from "./contexts/ContextProvider"
 import Navbar from './components/Navbar';
 import { Navbar2 } from './components/Navbar2';
+import { Navbar3 } from './components/Navbar3';
 import { Dashboard } from './pages/Dashboard';
 import { Skills } from './pages/Skills';
 import { AboutMe } from './pages/AboutMe';
@@ -50,21 +51,24 @@ function App() {
     <div className='w-full'>
 
     {/* <Navbar /> */}
+    {/* <Navbar2 /> */}
     <Navbar2 />
 
     <div>
     <Dashboard />
-    
+    <a id="About"></a>
     <AboutMe />
 
     {/* <Skills />
 
     <Education /> */}
-
+    <a id="projects"></a>
     <Development />
 
+    <a id="summary"></a>
     <Projectsummary />
 
+    <a id="contact"></a>
     <ContactDetails />
    
     </div>
