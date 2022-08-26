@@ -25,9 +25,7 @@ export const Development = () => {
       <CoolNikeCard img={remittancelogo} title={"Tech-G Remittance Web Portal"} description={"A minimalistic web page constructed using React, Springboot and SQL that automatically map fields to one another based on a Single Source of Truth that is fully customizable and easy to use."} github={"https://github.com/jaydenhojingrong/Remittance-Web-Portal"}/>
       <CoolNikeCard img={solanaVotingLogo} title={"Voting App on Solana Blockchain"} description={"A voting application that allows users to create new topics to vote on and register themselves as voters for topics. Built using Rust and Typescript for backend."} github={"https://github.com/maars202/solana-voting"}/>
       <CoolNikeCard img={nftlogo2} title={"NFT Marketplace"} description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} github={"https://github.com/maars202/NFT_ArtistsMarket"}/>
-      <CoolNikeCard img={nftlogo2} title={"NFT Marketplace"} description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} github={"https://github.com/maars202/NFT_ArtistsMarket"}/>
-      <CoolNikeCard img={nftlogo2} title={"NFT Marketplace"} description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} github={"https://github.com/maars202/NFT_ArtistsMarket"}/>
-
+      
     </div>
 
     </div>
