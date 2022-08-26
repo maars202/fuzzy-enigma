@@ -11,10 +11,6 @@ export const Navbar2 = () => {
   const {activeMenu, setActiveMenu, theme, setTheme} = useStateContext();
 
 
-  const handleclick = (buttonName) => {
-      console.log(buttonName, " clicked!");
-  }
-
   const handleThemeSwitch = () => {
       setTheme(theme === "dark" ? "light" : "dark");
     }
@@ -51,7 +47,7 @@ export const Navbar2 = () => {
             md:text-md' onClick={() => {setIsNavOpen(false)}}>Close</a>
 
             
-<div className={`${isNavOpen ? 'showMenuNav' : 'hideMenuNav'}`}>
+<div className={`${isNavOpen ? 'showMenuNav' : 'hideMenuNav'}` + " dark:bg-gray-700 bg-blue-100"}>
   {/* <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg> */}
   {/* <i class="fa fa-close" style={{color: "white"}}></i> */}
   <a href="#" className='mr-5 mt-0 dark:bg-[#01e473] bg-[#FF6464] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
@@ -91,9 +87,10 @@ export const Navbar2 = () => {
                 )}} color="blue" 
                 icon={<AiOutlineMenu />} />
 
-            <a href="#" onClick={handleThemeSwitch} className='rounded-full inline-block px-8 py-3 border border-transparent text-xl text-black dark:text-white hover:opacity-75
+              <div className=' rounded-full outline-2 dark:outline-white outline-black-500 border-2 dark:border-white border-black'><a onClick={handleThemeSwitch} className='rounded-full inline-block px-8 py-3 border border-transparent text-xl text-black dark:text-white hover:opacity-75
             md:text-md outline outline-offset-2 dark:outline-white outline-black outline-2'>{theme === "dark"? "dark 🌓" : "light 🌤️"}</a>
-
+</div>
+            
             {/* <button data-collapse-toggle="#navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
