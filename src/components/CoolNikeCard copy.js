@@ -2,17 +2,15 @@ import React from 'react'
 
 export const CoolNikeCard = ({img, title, description, github, }) => {
   return (
-    // <div>w-[600px] -- when md and above when hovering
-    //   h-full -- when mobile and hoving 
-
+    <div>
         <div class="flex justify-center items-center p-3">
            <div className='outline outline-offset-4  dark:outline-green-400 outline-[#FF6464] outline-4 rounded-md p-4'> 
-  <div aria-details="card" class="relative flex flex-wrap w-[300px] hover:h-full transition-all duration-10000 ease-in-out h-[400px] overflow-hidden bg-white shadow-2xl">
-    <div aria-details="image" class="md:shrink-0 relative max-w-[300px] scale-55 h-full bg-white flex justify-center items-center">
+  <div aria-details="card" class="relative flex flex-wrap w-[300px] hover:w-[600px] hover:md:h-full transition-all duration-1000 ease-in-out h-96 overflow-hidden bg-white shadow-2xl ">
+    <div aria-details="image" class="md:shrink-0 relative min-w-xm w-[300px] scale-55 h-full bg-white flex justify-center items-center">
       {/* <img class="h-96 max-w-xs transition duration-300 ease-out hover:-rotate-12 hover:-translate-x-5" src={img} /> */}
-      <img class=" md:max-h-xs md:w-auto h-auto max-w-xs transition duration-300 ease-out hover:scale-110" src={img} />
+      <img class="md:h-full md:w-48 h-auto max-w-xs transition duration-300 ease-out hover:scale-110" src={img} />
     </div>
-    <div aria-details="details" class="bg-[#f7c9c9] dark:bg-yellow-200 relative min-w-sm max-h-[400px] flex p-5 flex-col justify-center transition delay-300 ease-in-out">
+    <div aria-details="details" class="bg-[#f7c9c9] dark:bg-yellow-200 relative min-w-sm h-full flex p-5 flex-col justify-center transition delay-700 ease-in-out">
       <h1 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">{title}</h1>
       <h4 class="text-sm font-medium mt-2">Project details</h4>
       <p class="text-md font-normal text-left">{description}</p>
@@ -35,7 +33,7 @@ export const CoolNikeCard = ({img, title, description, github, }) => {
 
   </div>
 </div>
-
+</div>
     
   )
 }

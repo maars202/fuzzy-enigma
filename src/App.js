@@ -4,6 +4,7 @@ import Herosection from "./components/Herosection"
 import { useState, useEffect } from 'react';
 import { useStateContext } from "./contexts/ContextProvider"
 import Navbar from './components/Navbar';
+import { Navbar2 } from './components/Navbar2';
 import { Dashboard } from './pages/Dashboard';
 import { Skills } from './pages/Skills';
 import { AboutMe } from './pages/AboutMe';
@@ -46,10 +47,12 @@ function App() {
   
   return (
 
-    <>
+    <div className='w-full'>
 
-    <Navbar />
-   {/* <h1 className='text-base underline text-3xl'>helloooo</h1> */}
+    {/* <Navbar /> */}
+    <Navbar2 />
+
+    <div>
     <Dashboard />
     
     <AboutMe />
@@ -64,7 +67,8 @@ function App() {
 
     <ContactDetails />
    
-    </>
+    </div>
+    </div>
   );
 }
 

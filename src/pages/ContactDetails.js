@@ -13,7 +13,7 @@ export const ContactDetails = () => {
         <p className='dark:text-white text-black text-5xl items-center'>Contact</p>
         </div>
 
-  <Form />
+    <Form />
 
   <a href="#" className='mr-5  dark:bg-[#01e473] bg-[#FF6464] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
             md:text-md'>Contact</a>

@@ -63,6 +63,8 @@ module.exports = {
         backgroundImage: {
           'hero-pattern':
             "url('https://demos.wrappixel.com/premium-admin-templates/react/flexy-react/main/static/media/welcome-bg-2x-svg.25338f53.svg')",
+            'hero-pattern2':
+            "url('https://www.cio.com/wp-content/uploads/2022/02/conceptual_trend_lines_data_tracking_monitoring_analytics_forecasting_future_whats_next_by_solarseven_gettyimages-1213574690_2400x1600-100877726-orig.jpg?quality=50&strip=all')",
         },
       },
     },
