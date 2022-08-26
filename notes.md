@@ -8,3 +8,5 @@ https://tailwindcomponents.com/component/animated-card-slide-up-effect
 
 https://play.tailwindcss.com/tJoy230vRx
 
+
+https://www.sanity.io/guides/add-telegram-to-your-react-application
