@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const CoolNikeCard = ({img, title, description, github, }) => {
+export const CoolNikeCard = ({img, title, description, github, websitelink}) => {
   return (
 
         <div class="flex justify-center items-center p-3">
@@ -19,7 +19,10 @@ export const CoolNikeCard = ({img, title, description, github, }) => {
 
         <a class="mr-2 dark:text-orange-500 text-blue-500 underline underline-offset-4 hover:font-extrabold" href={github}>Github Repo</a>
 
-        <a href="#" class="px-4 py-2 bg-white rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Find out more!</a>
+        {/* {websitelink.length != 0 ? <a href={websitelink} class="hover:cursor-pointer px-4 py-2 bg-white rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Find out more!</a> : <></>} */}
+        <a href={websitelink.length != 0 ? websitelink : github} class="hover:cursor-pointer px-4 py-2 bg-white rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Find out more!</a>
+        
+        
       </div>
     </div>
   </div>
