@@ -21,11 +21,13 @@ export const Timeline2 = () => {
         <div className='w-1/2'></div>
     <ol class="relative border-gray-200 dark:border-green-400 border-l-4">
     <Li latest={true} title={"Software Developer Intern"} time={"At Trinax Private Limited from May 2022 - August 2022"} description={"Worked on creating a Springboot Java API application for automated sending of weekly reports of queried data in a password protected zip folder using cron job. Researched for NFT integration in Unity and Phaser games. Improved the Laravel backend API of a CMS platform for generating and displaying reports."} />  
+    <Li latest={false} title={"Hacksingapore Hackathon - Top 3 Finalists"} description={"Together with 3 other members, we came up with a MVP mobile app using Expo and React-Native framework for comparing the different blockchain protocols that are best suited for the TradeTrust platform to deploy their existing smart contracts."} 
+    time={"Organised by IMDA, from April 2021 - June 2021"} />     
     <Li latest={false} title={"Singapore Blockchain Innovation Challenge 2021 - 3rd place Winner"} time={"Dec 2021"} description={"Collaborated with 2 other members to come up with a MVP website using React framework, pinata and solidity smart contracts for users to rent bikes as NFTs and act as a more sustainable and decentralised bike sharing solution. Awarded $2000 for placing 3rd overall."} />                  
     <Li latest={false} title={"Teaching Assistant for Computational Thinking Module"} description={"Handled administrative matters, including keeping track of class participation by students, sending announcements, and attending to students’ queries on crafting better algorithmic solutions for computational problems."} 
     time={"At Singapore Management University, from Aug 2021 - Nov 2021"} />                  
-    {/* <Li latest={false} title={"Part-time Web Developer Intern"} description={"Worked in a team to develop a Non Fungible Token (NFT) mobile application for art collectibles using solidity, React Native framework and AWS."} 
-    time={"At OIO Holdings Limited from Aug 2021 - Sep 2021"} />                      */}
+    <Li latest={false} title={"Part-time Web Developer Intern"} description={"Worked in a team to develop a Non Fungible Token (NFT) mobile application for art collectibles using solidity, React Native framework and AWS."} 
+    time={"At OIO Holdings Limited from Aug 2021 - Sep 2021"} />                     
     </ol>
     </div>
   )
