@@ -55,14 +55,17 @@ function App() {
           <a id="About"></a>
           <AboutMe />
 
-          {/* <Skills />
-          <Education /> */}
+          {/* <Skills /> */}
+          
           
           <a id="projects"></a>
           <Development />
 
-          <a id="summary"></a>
-          <Projectsummary />
+          <a id="timeline"></a>
+          <Education />
+
+          {/* <a id="summary"></a>
+          <Projectsummary /> */}
 
           <a id="contact"></a>
           <ContactDetails />
