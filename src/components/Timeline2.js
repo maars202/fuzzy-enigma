@@ -26,8 +26,8 @@ export const Timeline2 = () => {
     <Li latest={false} title={"Singapore Blockchain Innovation Challenge 2021 - 3rd place Winner"} time={"Dec 2021"} description={"Collaborated with 2 other members to come up with a MVP website using React framework, pinata and solidity smart contracts for users to rent bikes as NFTs and act as a more sustainable and decentralised bike sharing solution. Awarded $2000 for placing 3rd overall."} />                  
     <Li latest={false} title={"Teaching Assistant for Computational Thinking Module"} description={"Handled administrative matters, including keeping track of class participation by students, sending announcements, and attending to students’ queries on crafting better algorithmic solutions for computational problems."} 
     time={"At Singapore Management University, from Aug 2021 - Nov 2021"} />                  
-    <Li latest={false} title={"Part-time Web Developer Intern"} description={"Worked in a team to develop a Non Fungible Token (NFT) mobile application for art collectibles using solidity, React Native framework and AWS."} 
-    time={"At OIO Holdings Limited from Aug 2021 - Sep 2021"} />                     
+    {/* <Li latest={false} title={"Part-time Web Developer Intern"} description={"Worked in a team to develop a Non Fungible Token (NFT) mobile application for art collectibles using solidity, React Native framework and AWS."} 
+    time={"At OIO Holdings Limited from Aug 2021 - Sep 2021"} />                      */}
     </ol>
     </div>
   )
