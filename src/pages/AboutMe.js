@@ -16,7 +16,10 @@ export const AboutMe = () => {
           
           <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center py-6 mt-20'>ABOUT ME</p>
           <p className='dark:text-white text-black text-7xl items-center py-6'>Full Stack Developer</p>
-          <div className='text-xl md:text-3xl text-slate-500 py-6 leading-relaxed mr-4'>Worked with Java, Python, Rust, Go, PHP, etc. Mainly used React wih Tailswind styling for web projects. 
+          <div className='text-xl md:text-3xl text-slate-500 py-6 leading-relaxed mr-4'>Passionate about full stack development and avant-garde technologies such as Blockchain and Embedded Systems. Currently a penultimate student pursuing Information Systems at Singapore Management University. 
+          <br></br>
+          <br></br>
+          Worked with Java, Python, Rust, Go, PHP, etc. Mainly used React wih Tailswind styling for web projects. 
           Explored building decentralised applications on Ethereum and Solana blockchains, with Rust used in the latter. Other backend experiences included creating APIs in Java (Springboot), Python (flask), Rust (Diesel), Go, usage of Docker.</div>
                 
           </div>

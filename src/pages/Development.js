@@ -14,9 +14,13 @@ export const Development = () => {
       <div className='place-items-center grid py-5 mt-5'>
         <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center'>MORE ABOUT ME</p>
       </div>
-        <div className='place-items-center grid py-5 mb-20'>
+        <div className='place-items-center grid pt-5'>
         <p className='dark:text-white text-black text-5xl items-center'>Development</p>
         </div>
+        <div className='place-items-center grid pb-5 mt-5'>
+        <p className='dark:text-green-400 text-red-300 text-xl font-thin items-center italic'>Hover over the projects to find out more!</p>
+      </div>
+        
       
     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-between min-h-590 px-20'>
 
@@ -34,7 +38,7 @@ export const Development = () => {
       description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} 
       github={"https://github.com/maars202/NFT_ArtistsMarket"}
       websitelink={""}/>
-      <CoolNikeCard img={driverLogo3} title={"Image Classifation Project"} description={"As part of the 7th Installment of the Data Associate Programme by SMU Business Intelligence and Analytics, a group of friends and I developed a ensemble machine learning model that determines the state of a person while he/she is driving over 12 weeks. We visualised the models with class activation maps to better understand how the different models work."}
+      <CoolNikeCard img={driverLogo3} title={"Image Classification Project"} description={"As part of Data Associate Programme by SMU Business Intelligence and Analytics club, a group of friends and I developed an ensemble machine learning model that determines the state of a person while driving. We created class activation map visualisations to better understand how the different models work."}
       github={"https://github.com/maars202/SMU_BIA_Actual_Idiots"} 
       websitelink={"https://maars202-smu-bia-actual-idiots-app-9l8fmc.streamlitapp.com/"}/>
       {/* <CoolNikeCard img={driverLogo3} title={"Image Classifation Project"} description={"As part of the 7th Installment of the Data Associate Programme by SMU Business Intelligence and Analytics, a group of friends and I developed a ensemble machine learning model that determines the state of a person while he/she is driving over 12 weeks. We visualised the models with class activation maps to better understand how the different models work."}/> */}
