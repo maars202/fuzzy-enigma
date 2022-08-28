@@ -1,9 +1,9 @@
 import React from 'react'
 export const Dashboard = () => {
   return (
-    <div className='w-full dark:bg-[#262829] bg-white h-1/2'>
+    <div className='w-full dark:bg-[#262829] bg-white'>
 
-        <div className='flex flex-row'>
+        <div className='flex flex-row ' >
               <div class="flex flex-col md:w-2/3 w-full p-20 bg-cover bg-hero-pattern2 md:bg-none overflow-hidden" >
                 <div className='pac dark:text-white text-black md:text-5xl text-2xl py-4'>Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.</div>
                 <div className='md:text-2xl py-4 text-slate-500 text-sm'>Web Developer, Blockchain Developer, <br></br>System Design and Algorithmic Design Enthusiast, <br></br> and a Biker</div>
