@@ -16,7 +16,9 @@ const Li = ({title, time, description, latest}) => {
 }
 export const Timeline2 = () => {
   return (
-    <div className=' flex mt-5'>
+    <div className="flex mt-5 opacity-0
+    duration-[3000ms]"
+    x-intersect="$el.classList.add('opacity-100')">
 
         <div className='w-1/2'></div>
     <ol class="relative border-gray-200 dark:border-green-400 border-l-4">

@@ -37,14 +37,17 @@ export const ContactDetails = () => {
   return (
     <div className='grid dark:bg-[#262829] bg-white min-h-590 justify-items-center pb-20'>
       <div className='place-items-center grid py-5 mt-5'>
-        <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center'>JUST A PING AWAY</p>
+        <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center opacity-0 duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100')">JUST A PING AWAY</p>
       </div>
       <div className='place-items-center grid py-5 mb-20'>
-      <p className='dark:text-white text-black text-5xl items-center'>Contact</p>
+      <p className='dark:text-white text-black text-5xl items-center opacity-0 translate-y-full duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Contact</p>
       </div>
 
      
-      <form className='w-4/5 md:w-96' ref={form} onSubmit={sendEmail}>
+      <form className='w-4/5 md:w-96 opacity-0 duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100')" ref={form} onSubmit={sendEmail} >
           <label class="block">
             <span class="block font-medium text-[#ABAEB0] text-xl mb-2">Your Name</span>
             <input name="user_name" class="peer ..." className='w-full bg-inherit outline outline-offset-1 dark:text-white dark:outline-green-400 outline-[#FF6464] outline-2 rounded-md p-4' placeholder='Enter your name'/>

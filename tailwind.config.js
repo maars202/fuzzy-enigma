@@ -68,5 +68,16 @@ module.exports = {
         },
       },
     },
-    plugins: [],
+    plugins: [
+      // require('taos/plugin')
+      // require("tailwindcss-animate"),
+    ],
+    // safelist: [
+    //   '!duration-0',
+    //   '!delay-0',
+    //   'html.js :where([class*="taos:"]:not(.taos-init))'
+    // ],
+    // content: {
+    //   transform: (content) => content.replace(/taos:/g, ''),
+    // },
   };

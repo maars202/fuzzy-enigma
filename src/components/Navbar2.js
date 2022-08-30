@@ -38,7 +38,7 @@ export const Navbar2 = () => {
         <nav class=" border-gray-200 px-2 sm:px-4 py-5 rounded dark:bg-gradient-to-r from-blue-300 dark:from-green-400 to-[#FF6464] dark:to-black bg-gradient-to-l">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
 
-        <div className={`${isNavOpen ? 'showMenuNav' : 'hideMenuNav'}`}>
+        <div className={`${isNavOpen ? 'showMenuNav' : 'hideMenuNav'} md:hidden`}>
   <a href="#" className='mr-5 mt-0 dark:bg-[#01e473] bg-[#FF6464] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75
             md:text-md' onClick={() => {setIsNavOpen(false)}}>Close</a>
 

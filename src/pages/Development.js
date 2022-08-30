@@ -12,17 +12,25 @@ export const Development = () => {
   return (
     <div className='flex flex-col bg-white dark:bg-[#262829] justify-between'>
       <div className='place-items-center grid py-5 mt-5'>
-        <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center'>MORE ABOUT ME</p>
+        <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center opacity-0
+        duration-[3000ms]'
+        x-intersect="$el.classList.add('opacity-100')">MORE ABOUT ME</p>
       </div>
         <div className='place-items-center grid pt-5'>
-        <p className='dark:text-white text-black text-5xl items-center'>Development</p>
+        <p className='dark:text-white text-black text-5xl items-center 
+        opacity-0 translate-y-full duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Development</p>
         </div>
         <div className='place-items-center grid pb-5 mt-5'>
-        <p className='dark:text-green-400 text-red-300 text-xl font-thin items-center italic'>Hover over the projects to find out more!</p>
+        <p className='dark:text-green-400 text-red-300 text-xl font-thin items-center italic 
+        opacity-0 duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100')">Hover over the projects to find out more!</p>
       </div>
         
       
-    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-between min-h-590 px-20'>
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-between min-h-590 px-20
+    opacity-0 duration-[3000ms]'
+    x-intersect="$el.classList.add('opacity-100')">
 
       <CoolNikeCard img={remittancelogo} 
       title={"Tech-G Remittance Web Portal"} 
