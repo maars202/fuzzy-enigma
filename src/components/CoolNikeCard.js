@@ -1,6 +1,7 @@
 import React from 'react'
 
 export const CoolNikeCard = ({img, title, description, github, websitelink}) => {
+  console.log("websitelink:", websitelink)
   return (
 
         <div class="flex justify-center items-center p-4">

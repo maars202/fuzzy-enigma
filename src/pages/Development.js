@@ -41,7 +41,7 @@ export const Development = () => {
       title={"Voting App on Solana Blockchain"} 
       description={"A voting application that allows users to create new topics to vote on and register themselves as voters for topics. Built using Rust and Typescript for backend."} 
       github={"https://github.com/maars202/solana-voting"}
-      websitelink={""}/>
+      websitelink={"https://silver-barnacle-theta.vercel.app"}/>
       <CoolNikeCard img={nftlogo2} title={"NFT Marketplace"} 
       description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} 
       github={"https://github.com/maars202/NFT_ArtistsMarket"}
