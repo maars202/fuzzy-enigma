@@ -73,10 +73,14 @@ export const ContactDetails = () => {
           </label>
           <div className='grid items-center justify-center'>
             <div className=' grid items-center'>
-              
-          <input type="submit" value="Send " className="w-30 dark:bg-[#01e473] bg-[#FF6464] rounded-full inline-block px-8 py-3 border border-transparent text-base font-medium text-white hover:opacity-75 md:text-md" />
-         
-          
+            {/* dark:bg-[#01e473] bg-[#FF6464] */}
+          <input type="submit" value="Send " className="w-30 dark:bg-[#01e473] bg-[#FF6464] dark:to-black rounded-full inline-block px-10 py-3 border border-transparent text-base font-medium text-white hover:opacity-75 md:text-md" />
+          {/* <input type="submit" value="Send " className="text-white dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" /> */}
+          {/* <button type="submit" value="Send" class="px-10 py-3 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white bg-inherit rounded-md group-hover:bg-opacity-0">
+      Green to blue
+  </span>
+</button> */}
           </div>
           <div className=''>
 

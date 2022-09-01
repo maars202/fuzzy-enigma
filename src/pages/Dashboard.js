@@ -13,8 +13,8 @@ export const Dashboard = () => {
                 <a href="#" className='mb-2 md:mb-0 mr-20 dark:bg-[#01e473] bg-[#FF6464] 
                 rounded-full inline-block px-8 py-3 border border-transparent text-base 
                 font-medium text-white hover:opacity-75
-              md:text-md opacity-0 translate-y-full duration-[3000ms]' 
-              x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Learn More</a>
+              md:text-md opacity-0 duration-[3000ms]' 
+              x-intersect="$el.classList.add('opacity-100', 'm')">Learn More</a>
               {/* animate-bounce delay-150 duration-300 */}
                 <a href="#" className='border-2 rounded-full inline-block px-8 py-3 dark:border-[#01e473] border-[#FF6464] text-base font-medium text-[#FF6464] dark:text-white hover:opacity-75 hover:animate-bounce
               md:text-md'>Connect</a>
