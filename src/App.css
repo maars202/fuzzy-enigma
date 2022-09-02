@@ -90,6 +90,12 @@
 .hideMenuNav {
   display: none;
 }
+
+.navbar {
+  position: sticky;
+    top: 0;
+}
+
 .showMenuNav {
   display: block;
   position: absolute;
@@ -109,3 +115,4 @@ m {
   /* transform: rotate(20deg); */
   transform: scaleY(1.5);
 }
+

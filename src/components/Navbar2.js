@@ -4,6 +4,10 @@ import {AiOutlineMenu } from "react-icons/ai"
 
 import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import { useStateContext } from '../contexts/ContextProvider'
+import Scroll from 'react-scroll'
+
+const ScrollLink = Scroll.ScrollLink
+
 export const Navbar2 = () => {
 
   const {activeMenu, setActiveMenu, theme, setTheme} = useStateContext();
@@ -34,7 +38,7 @@ export const Navbar2 = () => {
   }, [isNavOpen])
 
   return (
-    <div>
+    <div className='navbar'>
         <nav class=" border-gray-200 px-2 sm:px-4 py-5 rounded dark:bg-gradient-to-r from-blue-300 dark:from-green-400 to-[#FF6464] dark:to-black bg-gradient-to-l">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
 

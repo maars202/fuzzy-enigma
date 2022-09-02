@@ -47,7 +47,7 @@ function App() {
   return (
 
     <div className='w-full'>
-      <Navbar2 />
+      <Navbar2 style={"width: 100%; position: fixed; top: 0;"} />
 
       <div>
       <Dashboard />
