@@ -18,12 +18,12 @@ export const AboutMe = () => {
           <p className='dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center py-6 mt-20 opacity-0 duration-[3000ms]' 
         x-intersect="$el.classList.add('opacity-100')">ABOUT ME</p>
           <p className='dark:text-white text-black text-7xl items-center py-6 opacity-0 translate-y-full duration-[3000ms]' 
-        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Full Stack Developer</p>
+        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Software Engineer</p>
           <div className='text-xl md:text-3xl text-slate-500 py-6 leading-relaxed mr-4 opacity-0 duration-[3000ms]' 
         x-intersect="$el.classList.add('opacity-100')">Hi there, I'm Maaruni! I am currently a penultimate Information Systems student specialising in Digital Cloud Solutions and Cyber-Physical Systems at Singapore Management University(SMU).
           <br></br>
           <br></br>
-          I enjoy cycling in my free time and exploring new places and food. Passionate about full stack development and avant-garde technologies such as Blockchain and Embedded Systems. 
+          I enjoy cycling in my free time and exploring new places and food. Passionate about software development and avant-garde technologies such as Blockchain and Embedded Systems. 
           I hope to work in a company that makes good use of these technologies to solve current problems in an out-of-the-box manner.
 
           <br></br>

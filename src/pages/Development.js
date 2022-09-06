@@ -6,7 +6,7 @@ import remittancelogo from "../data/remittancePortal.png"
 import driverLogo from "../data/img_116.jpeg"
 import driverLogo2 from "../data/driverLogo2.png"
 import driverLogo3 from "../data/driverLogo3.png"
-
+import tokengating from "../data/tokenGating.png"
 
 export const Development = () => {
   return (
@@ -37,11 +37,20 @@ export const Development = () => {
       description={"A minimalistic web page constructed using React, Springboot and SQL that automatically map fields to one another based on a Single Source of Truth that is fully customizable and easy to use."} 
       github={"https://github.com/jaydenhojingrong/Remittance-Web-Portal"}
       websitelink={""}/>
-      <CoolNikeCard img={solanaVotingLogo} 
+      {/* <CoolNikeCard img={solanaVotingLogo} 
       title={"Voting App on Solana Blockchain"} 
       description={"A voting application that allows users to create new topics to vote on and register themselves as voters for topics. Built using Rust and Typescript for backend."} 
       github={"https://github.com/maars202/solana-voting"}
+      websitelink={"https://silver-barnacle-theta.vercel.app"}/> */}
+
+    <CoolNikeCard img={tokengating} 
+      title={"Token-Gating App on Solana Blockchain"} 
+      description={"An application that allows event organisers to mint upgradable NFTs and transfer them to event attendees as event entry passes. Upon entering events with QR verification, NFTs will be upgraded. This gamifies event attending experiences and encourages customer loyalty. Built using Rust & Typescript for backend."} 
+      // github={"https://github.com/maars202/solmate"}
+      github={"https://github.com/maars202/silver-barnacle"}
       websitelink={"https://silver-barnacle-theta.vercel.app"}/>
+
+
       <CoolNikeCard img={nftlogo2} title={"NFT Marketplace"} 
       description={"A decentralised web app that allows users to list their NFTs on a marketplace and for others to purchase listed NFTs. Built using Reactjs and Solidity."} 
       github={"https://github.com/maars202/NFT_ArtistsMarket"}
