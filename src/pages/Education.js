@@ -7,8 +7,8 @@ export const Education = () => {
       <div className='place-items-center grid py-5 mt-5'>
         {/* <h1 className='text-3xl font-bold underline opacity-0 duration-[5000ms]'
           x-intersect="$el.classList.add('opacity-100')">dfakjslkfda</h1> */}
-        <p className=' dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center opacity-0 duration-[5000ms]'
-        x-intersect="$el.classList.add('opacity-100')">Timeline</p>
+        {/* <p className=' dark:text-green-400 text-[#FF6464] text-2xl font-bold items-center opacity-0 duration-[5000ms]'
+        x-intersect="$el.classList.add('opacity-100')">Timeline</p> */}
       </div>
        
         <div className='place-items-center grid py-5 mb-20'>

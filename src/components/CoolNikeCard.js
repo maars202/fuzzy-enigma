@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const CoolNikeCard = ({img, title, description, github, websitelink}) => {
+export const CoolNikeCard = ({img, title, description, github, websitelink, githubPresent}) => {
   console.log("websitelink:", websitelink)
   return (
 
@@ -19,7 +19,9 @@ export const CoolNikeCard = ({img, title, description, github, websitelink}) => 
       <div class="flex justify-between items-center mt-4">
 
         {/* <a class="mr-2 dark:text-orange-500 text-blue-500 underline underline-offset-4 hover:font-extrabold" href={github}>Github Repo</a> */}
-        <a href={github} class="hover:cursor-pointer px-4 mr-2 py-2 bg-blue-300 dark:bg-orange-200 rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Github Repo</a>
+        {githubPresent == true 
+        ? <a href={github} class={"hover:cursor-pointer px-4 mr-2 py-2 bg-blue-300 dark:bg-orange-200 rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"}>Github Repo</a> 
+        : (<div></div>)}
 
         {/* {websitelink.length != 0 ? <a href={websitelink} class="hover:cursor-pointer px-4 py-2 bg-white rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Find out more!</a> : <></>} */}
         <a href={websitelink.length != 0 ? websitelink : github} class="hover:cursor-pointer px-4 py-2 bg-white rounded-lg border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Website</a>

@@ -26,12 +26,11 @@ export const AboutMe = () => {
         x-intersect="$el.classList.add('opacity-100')">Hi there, I'm Maaruni! I am currently a penultimate Information Systems student specialising in Digital Cloud Solutions and Cyber-Physical Systems at Singapore Management University(SMU).
           <br></br>
           <br></br>
-          I enjoy cycling in my free time and exploring new places and food. Passionate about software development and avant-garde technologies such as Blockchain and Embedded Systems. 
-          I hope to work in a company that makes good use of these technologies to solve current problems in an out-of-the-box manner.
+          Passionate about software development and avant-garde technologies such as Blockchain and Embedded Systems, I hope to work in a company that makes good use of these technologies to solve current problems in an out-of-the-box manner.
 
           <br></br>
           <br></br>
-          Worked with Java, Python, Rust, Go, PHP, etc. Mainly used React wih Tailswind styling for web projects. 
+          Worked with Java, Python, Rust, Go, PHP, etc. Mainly used React wih Tailwind styling for web projects. 
           Explored building decentralised applications on Ethereum and Solana blockchains, with Rust used in the latter. Other backend experiences included creating APIs in Java (Springboot), Python (flask), Rust (Diesel), Go, usage of Docker.</div>
                 
           </div>

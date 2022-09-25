@@ -8,7 +8,10 @@ module.exports = {
         icon: ['Rubik Iso', 'sans-serif'],
         // title: ['Rufina', 'sans-serif'],
         pac: ['Pacifico', 'sans-serif'],
-        
+        nablo: ['Nabla', 'sans-serif'],
+
+//         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Pacifico&family=Rubik+Iso&display=swap" rel="stylesheet">
+// <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet"></link>
         
       },
       extend: {

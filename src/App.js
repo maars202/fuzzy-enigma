@@ -20,9 +20,9 @@ function App() {
     if (
       !window.matchMedia('prefers-color-theme: dark').matches
     ) {
-      setTheme("dark")
-    }else{
       setTheme("light")
+    }else{
+      setTheme("dark")
     }
   
   }, [])
