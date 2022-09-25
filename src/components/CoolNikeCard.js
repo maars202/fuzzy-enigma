@@ -6,7 +6,7 @@ export const CoolNikeCard = ({img, title, description, github, websitelink, gith
 
         <div class="flex justify-center items-center p-4">
            <div className='outline outline-offset-4  dark:outline-green-400 outline-[#FF6464] outline-4 rounded-md p-4'> 
-  <div aria-details="card" class="relative flex flex-col w-[300px] hover:h-[700px] transition-all duration-1000 ease-in-out h-[200px] overflow-hidden bg-white shadow-2xl">
+  <div aria-details="card" class="relative flex flex-col w-[300px] hover:h-[700px] transition-all duration-1000 ease-in-out h-[190px] overflow-hidden bg-white shadow-2xl">
     <div aria-details="image" class="md:shrink-0 relative max-w-[300px] scale-55 max-h-[300px] h-full bg-white flex justify-center items-center">
 
       <img class=" md:max-h-xs md:w-auto h-auto max-w-xs transition duration-300 ease-out hover:scale-110" src={img} />

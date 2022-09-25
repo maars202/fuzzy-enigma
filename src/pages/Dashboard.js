@@ -5,13 +5,13 @@ export const Dashboard = () => {
 
         <div className='flex flex-row'>
               <div class="flex flex-col md:w-2/3 w-full p-20 bg-cover bg-hero-pattern2 md:bg-none overflow-hidden" >
-                <div className='text-bold nablo dark:text-white text-white md:text-5xl md:text-black text-2xl py-4 opacity-0 duration-[3000ms]' 
+                <div className='font-mono font-bold nablo dark:text-white text-white md:text-6xl text-5xl text-center md:text-left md:text-black py-4 opacity-0 duration-[3000ms]' 
         x-intersect="$el.classList.add('opacity-100')" >
           {/* "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away." */}
           Maaruni Pandithurai
           </div>
-                <div className='md:text-2xl py-4 dark:text-[#01e473] text-gray-400 text-sm translate-y-full duration-[3000ms]' 
-        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Web Developer, Blockchain Developer, <br></br>System and Algorithmic <br></br> Design Enthusiast, <br></br> and a Cyclist</div>
+                <div className='md:text-2xl py-4 dark:text-[#01e473] md:text-gray-400 text-center md:text-left text-gray-200 text-md translate-y-full duration-[3000ms]' 
+        x-intersect="$el.classList.add('opacity-100', 'translate-y-0')">Full Stack Developer, Blockchain Developer, <br></br>System and Algorithmic <br></br> Design Enthusiast, <br></br> and a Cyclist</div>
                 <div className='py-4'>
                 <a href="#About" className='mb-2 md:mb-0 mr-20 dark:bg-[#01e473] bg-[#FF6464] 
                 rounded-full inline-block px-8 py-3 border border-transparent text-base 
