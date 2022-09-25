@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from "../data/personalPic.jpg"
-
+import logo2 from "../data/IMG_6465.jpg"
+import logo3 from "../data/IMG_6466.jpg"
+import logo4 from "../data/IMG_6467.jpg"
+import logo2_2 from "../data/IMG_6465_2.jpg"
 export const AboutMe = () => {
   return (
     <div className='w-full dark:bg-[#313536] bg-[#EDF7FA]'>
@@ -10,7 +13,7 @@ export const AboutMe = () => {
           <div className='flex flex-col md:w-2/5 p-10'>
           
             <img className='shadow-inner rounded-xl shadow-blue-200/40 opacity-0 duration-[3000ms]' 
-        x-intersect="$el.classList.add('opacity-100')"src={logo}/>
+        x-intersect="$el.classList.add('opacity-100')"src={logo2_2}/>
           </div>
         
           <div className='md:w-3/5 md:p-10 flex flex-col'>
